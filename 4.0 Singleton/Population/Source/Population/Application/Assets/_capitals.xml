@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+  <Cities>
+    <City>Tokyo</City>
+    <Population>332</Population>
+  </Cities>
+  <Cities>
+    <City>New York</City>
+    <Population>178</Population>	
+  </Cities>
+  <Cities>
+    <City>Sao Paulo</City>
+    <Population>178</Population>
+  </Cities>
+  <Cities>
+    <City>Seoul</City>
+    <Population>175</Population>
+  </Cities>
+  <Cities>
+    <City>Mexico City</City>
+    <Population>174</Population>
+  </Cities>
+  <Cities>
+    <City>Osak</City>
+    <Population>164</Population>
+  </Cities>
+    <Cities>
+    <City>Manila</City>
+  <Population>147</Population>
+    </Cities>
+    <Cities>
+    <City>Mumbai</City>
+    <Population>143</Population>
+  </Cities>
+<Cities>
+<City>Delhi</City>
+<Population>143</Population>
+</Cities>
+<Cities>
+<City>Jakarta</City>
+<Population>142</Population>
+</Cities>
+</database>
