@@ -16,6 +16,10 @@ namespace DesignPatterns.Implementation
         private static Lazy<SingletonDatabase> instance
             = new Lazy<SingletonDatabase>(() => new SingletonDatabase());
 
+
+        private static int instanceCount;
+        public static int Count => instanceCount;
+
         public static SingletonDatabase Instance
             => instance.Value;
 
@@ -23,6 +27,7 @@ namespace DesignPatterns.Implementation
         {
             Console.WriteLine("Initializing database...");
             ReadXmlAsset();
+            instanceCount++;
         }
 
         /// <summary>
